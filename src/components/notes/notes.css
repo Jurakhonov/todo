@@ -1,0 +1,78 @@
+.notes__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.notes__title {
+    color: #323232;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.notes__btn {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+    background: #EEE8F4;
+    padding: 18px 20px;
+    border-radius: 16px;
+    color: #6750A4;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+
+.card {
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    background: #F7F2F9;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.card__title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.card__date {
+    font-size: 14px;
+    color: #CAC4D0;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+.card__desc {
+    font-size: 14px;
+    color: #49454F;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    padding: 16px 0;
+}
+
+.card__controls {
+    display: flex;
+    justify-content: end;
+}
+
+.notes__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.notes__content.active {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
